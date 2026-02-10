@@ -1,0 +1,7 @@
+{
+  "repo": "neural-vision-contracts",
+  "tag": "v0.1.0",
+  "commit": "0000000000000000000000000000000000000000",
+  "pinned_at": "2026-02-10T00:00:00Z",
+  "_note": "Placeholder: update commit SHA once neural-vision-contracts repo is available and pinned via git submodule."
+}
