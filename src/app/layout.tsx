@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import EngineBadge from "@/components/EngineBadge";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -20,7 +21,7 @@ export default function RootLayout({
             <Link href="/" className="text-xl font-bold tracking-tight">
               Neural Vision
             </Link>
-            <div className="flex gap-6 text-sm font-medium">
+            <div className="flex items-center gap-6 text-sm font-medium">
               <Link href="/demo" className="hover:text-blue-600 transition-colors">
                 Demo
               </Link>
@@ -30,6 +31,7 @@ export default function RootLayout({
               <Link href="/seller" className="hover:text-blue-600 transition-colors">
                 Seller
               </Link>
+              <EngineBadge />
             </div>
           </nav>
         </header>

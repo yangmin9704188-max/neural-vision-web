@@ -11,7 +11,7 @@ out/
 dist/
 build/
 
-# Environment
+# Environment (secrets — .env.example은 커밋됨)
 .env
 .env.local
 .env.development.local
